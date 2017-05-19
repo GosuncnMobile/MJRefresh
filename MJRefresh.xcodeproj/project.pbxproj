@@ -70,6 +70,7 @@
 		52104E1E1ECA8C4800CE0C4C /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 52104DE21ECA8C4800CE0C4C /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52104E1F1ECA8C4800CE0C4C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52104DE31ECA8C4800CE0C4C /* UIView+MJExtension.m */; };
 		52104E201ECA8C4800CE0C4C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52104DE31ECA8C4800CE0C4C /* UIView+MJExtension.m */; };
+		525973151ECE8FA50038A198 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 525973141ECE8FA50038A198 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		52104DE11ECA8C4800CE0C4C /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		52104DE21ECA8C4800CE0C4C /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		52104DE31ECA8C4800CE0C4C /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		525973141ECE8FA50038A198 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				52104DC11ECA8C4800CE0C4C /* Custom */,
 				52104DD81ECA8C4800CE0C4C /* Info.plist */,
 				52104DD91ECA8C4800CE0C4C /* MJRefresh.bundle */,
+				525973141ECE8FA50038A198 /* MJRefresh.h */,
 				52104DDA1ECA8C4800CE0C4C /* MJRefreshConst.h */,
 				52104DDB1ECA8C4800CE0C4C /* MJRefreshConst.m */,
 				52104DDC1ECA8C4800CE0C4C /* NSBundle+MJRefresh.h */,
@@ -286,6 +289,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525973151ECE8FA50038A198 /* MJRefresh.h in Headers */,
 				52104DFF1ECA8C4800CE0C4C /* MJRefreshBackNormalFooter.h in Headers */,
 				52104DF31ECA8C4800CE0C4C /* MJRefreshAutoGifFooter.h in Headers */,
 				52104E081ECA8C4800CE0C4C /* MJRefreshNormalHeader.h in Headers */,
@@ -723,6 +727,7 @@
 				52104DB01ECA899600CE0C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52104DB41ECA899600CE0C4C /* Build configuration list for PBXNativeTarget "MJRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +736,7 @@
 				52104DB21ECA899600CE0C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
